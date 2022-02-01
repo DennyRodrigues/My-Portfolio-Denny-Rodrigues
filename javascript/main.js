@@ -95,6 +95,7 @@ console.log(remainingTrivias)
 
 
 function changeTrivias(){
+  // Remove animation class
 
   // Start to repeat trivias after all the trivias haven been show, in case there are not more remaining trivias.
   if(remainingTrivias.length <= 0){
@@ -109,8 +110,8 @@ function changeTrivias(){
   // Remove the chosen trivia from the remaining array
   remainingTrivias.splice(randomNumber, 1);
   console.log(newTrivia, remainingTrivias); 
-
-
+  
+ 
   // Change the html to show  new trivia
   triviaText.innerHTML = newTrivia;
 }

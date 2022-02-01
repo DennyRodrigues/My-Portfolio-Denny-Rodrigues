@@ -355,6 +355,11 @@
 .contact__text-box{
   width: 70%;
 }
+.contact__link, .contact__link:link, .contact__link:visited{
+  color: #A399D0;
+  text-decoration: none;
+
+}
 .social__container{
   margin: 2rem 0 0 0;
   padding: 2rem 0 1rem 0;
