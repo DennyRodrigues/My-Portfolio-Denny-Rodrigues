@@ -1,0 +1,31 @@
+/* VARIABLES */
+
+/* GLOBAL RESETS */
+
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body{
+  background-color: #333;
+  color: #eee;
+  font-size: 2.0rem;
+  font-family: 'Karma', sans-serif;
+}
+
+@media (max-width:900px){
+  html{
+    font-size: 50%;
+
+  }
+  body{
+    font-size: 2.4rem;
+  }
+}
